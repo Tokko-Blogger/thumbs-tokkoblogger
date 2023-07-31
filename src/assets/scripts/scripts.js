@@ -132,7 +132,7 @@ document.getElementById('button_download_image').addEventListener('click', () =>
     }).then(function (dataUrl) {
         const element = functionCreateElement('a', {
             href: dataUrl,
-            download: 'elcreative_thumbnail_' + Math.round(Math.random() * 9999) + 1,
+            download: 'tokkoblogger_thumb_images_' + Math.round(Math.random() * 9999) + 1,
         });
         element.click();
 
